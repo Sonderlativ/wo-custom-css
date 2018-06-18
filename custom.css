@@ -106,7 +106,7 @@ body h1, body h2 {
 	font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
 	font-weight: 300;
 	text-shadow: none;
-	color: #333 !important;
+	color: #575756 !important;
 	hyphens: auto !important; /* Automatische Silbentrennung */
 }
 /* Font-Size H1 */
@@ -117,7 +117,7 @@ body h1 {
 /* Font-Size H2 */
 body h2 {
 	font-size: 38px !important;
-	line-height: 42px;
+	line-height: 55px;
 }
 /* Font-Size H3 */
 body h3 {
@@ -143,7 +143,7 @@ body h3 {
 /* Text wie H2 darstellen */
 .pseudo-h2 {
 	font-size: 38px !important;
-	line-height: 42px;
+	line-height: 55px;
 	font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
 	font-weight: 300;
 	text-shadow: none;
@@ -503,6 +503,13 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	height: 25px !important;
 }
 
+/* Kleineres Max-Width für Buttons bei Auflösungen über 800px */
+@media screen and (max-width: 1400px) and (min-width: 500px) {
+	.cta {
+		max-width: 14vw !important;
+	}
+}
+
 /* Buttons in Mobiler Ansicht groß werden lassen */
 @media screen and (max-width:400px){
 	.cta {
@@ -536,6 +543,9 @@ Beschränkungen werden bei Horizontaler Auflösung unter 1032px durch mobile Anp
 .quarter_fixed {
 	width: 24.5% !important;
 	min-width: 14em;
+}
+.sixtyfourpercent {
+	width: 62.0% !important;
 }
 
 .phyto_button {
@@ -604,7 +614,7 @@ margin-right: 0;
 /* Nachfolgendes Greift, wenn Breite unter 1280px (ehemals 1420) */
 @media screen and (max-width:1200px){
 	/* Die Breitenbeschränkungen durch die Klassen "half" und "quarter" aufheben */
-	.half, .quarter {
+	.half, .quarter, .sixtyfourpercent {
 		width: 100% !important;
 	}
 }
@@ -685,7 +695,8 @@ margin-right: 0;
 /* Manchmal klebt ein Button direkt unter einem Text. Hier wird ein kleiner Abstand zwischen Button und Text eingefügt, weil sich das vom Marketing-Team gewünscht wurde */
 .margin-bottom-button{
 	margin-bottom:30px;
-}
+} /* Anmerkung Tim: OMG an wie vielen Stellen wird das benutzt?!?!?!
+	 Es wäre doch viel einheitlicher gewesen, ALLEN CTA-Buttons den Abstand gleichermaßen zu geben und evtl. eine Ausnahmeregel für die 1. Sektion der Produktseite zu bauen.... /*
 
 /* START KARUSSELL */
 /* Die Elemente innerhalb des Sliders werden über die individuelle Slider-ID abgerufen und bearbeitet. In Diesem Fall lautet die ID 2913, daher muss vor jedem Element, das man bearbeiten möchte der Selektor #slider_2913 stehen */
