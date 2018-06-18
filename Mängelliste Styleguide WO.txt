@@ -1,0 +1,4 @@
+Mängelliste Styleguide WO:
+
+- Keine einzige der im Styleguide abgebildeten Farben entspricht dem darunter stehenden Farbcode
+- Font der für H4 und Button-Text festgelegt wird, entspricht nicht der Abbildung und den Layout-Entwürfen
