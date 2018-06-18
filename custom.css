@@ -1,0 +1,688 @@
+/* START FARBSCHEMATA */
+
+/* H3-Überschriften Farbzuweisung */
+.omega_h3 { 
+	color: #0081B8 !important;
+}
+.pearlz_h3 {
+	color: #4CC0DF !important;
+}
+.neutral_h3 {
+	color: #ffffff !important;
+}
+.altcta_h3 {
+	color: #F3F3ED !important;
+}
+.vitc_h3 {
+	color: #b5c405 !important;
+}
+.vitd3_h3 {
+	color: #a3ca62 !important;
+}
+.vitb_h3 {
+	color: #f0827c !important;
+}
+.calc_h3 {
+	color: #d1555a !important;
+}
+.jod_h3 {
+	color: #1f988a !important;
+}
+.mag_h3 {
+	color: #4a8c2c !important;
+}
+.zin_h3 {
+	color: #f49491 !important;
+}
+.sel_h3 {
+	color: #f7b435 !important;
+}
+.fol_h3 {
+	color: #ffd200 !important;
+}
+.gin_h3 {
+	color: #bd965c !important;
+}
+.acu_h3 {
+	color: #f28b00 !important;
+}
+.eis_h3 {
+	color: #73aa50 !important;
+}
+
+/* Hintergründe */
+.omega_bg {
+	background: #0081B8 !important;
+}
+.pearlz_bg {
+	background: #4CC0DF !important;
+}
+.neutral_bg {
+	background: #ffffff !important;
+}
+.vitc_bg {
+	background: #b5c405 !important;
+}
+.vitd3_bg {
+	background: #a3ca62 !important;
+}
+.vitb_bg {
+	background: #f0827c !important;
+}
+.calc_bg {
+	background: #d1555a !important;
+}
+.jod_bg {
+	background: #1f988a !important;
+}
+.mag_bg {
+	background: #4a8c2c !important;
+}
+.zin_bg {
+	background: #f49491 !important;
+}
+.sel_bg {
+	background: #f7b435 !important;
+}
+.fol_bg {
+	background: #ffd200 !important;
+}
+.gin_bg {
+	background: #bd965c !important;
+}
+.acu_bg {
+	background: #f28b00 !important;
+}
+.eis_bg {
+	background: #73aa50 !important;
+}
+/* ENDE FARBSCHEMATA */
+
+
+/* START DIVERSE MODIFIER */
+
+/* Schriftart & Style für H1 & H2 */
+body h1, body h2 {
+	font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+	font-weight: 300;
+	text-shadow: none;
+	color: #333 !important;
+	hyphens: auto !important; /* Automatische Silbentrennung */
+}
+/* Font-Size H1 */
+body h1 {
+	font-size: 43px;
+	line-height: 55px;
+}
+/* Font-Size H2 */
+body h2 {
+	font-size: 38px !important;
+	line-height: 42px;
+}
+
+/* Klasse für die Darstellung von Preisen */
+.pricetag {
+	font-size: 38px;
+	line-height: 42px;
+	font-weight: bold !important;
+}
+
+/* Text wie H2 darstellen */
+.pseudo-h2 {
+	font-size: 38px !important;
+	line-height: 42px;
+	font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+	font-weight: 300;
+	text-shadow: none;
+}
+
+/* Min-Height für H2 Überschriften in bestimmten Containern um Gleichmäßigkeit herzustellen */
+/* .et_pb_text_inner h2, et_pb_text h2, .et_pb_column_1_3 h2, .et_pb_column_1_4 h2 {
+	min-height: 140px;
+} */
+
+
+/* Alle Custom-H3 in BOLD, UPPERCASE unsw. */
+.tipps_h3, .omega_h3, .pearlz_h3, .neutral_h3, .altcta_h3, .tipps_h3, .vitc_h3, .vitd3_h3, .vitb_h3, .calc_h3, .jod_h3, .mag_h3, .zin_h3, .sel_h3, .fol_h3, .gin_h3, .acu_h3, .eis_h3 {
+	font-weight: bold !important;
+	text-transform: uppercase;
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size: 14px !important;
+	letter-spacing: 3px;
+}
+/* Alternative Klasse zum zentrieren von Objekten */
+.zentriert {
+	text-align: center !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+/* Elemente an ihr oberes Parent kleben */
+.sticktotop {
+    vertical-align: top !important;
+}
+/* Elemente als Block darstellen */
+.block {
+	display: block !important;
+}
+
+/* Icons unter Packshot darstellen */
+.icon-zeile {
+	text-align: center !important;
+	margin: 0 auto !important;
+	position: relative !important;
+    display: table !important;
+}
+.icon-zeile img {
+	max-width: 60px;
+	height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+	display: flex;
+}
+/* Wie .item, aber für Elemente in Icon-Zeile & ohne responsiveness */
+.icon-withtext {
+  /* width: 100px; */
+  /* margin: auto; */
+  text-align: center;
+  /* display: block; */
+  background-color: transparent;
+  border: 0.19em solid transparent;
+  /* margin-right: 5px;
+  margin-bottom: 1px; */
+  float: left;
+}
+/* Responsiveness für Mobile Ansicht, Icons & Text Schrumpfen */
+@media screen and (max-width:400px) {
+	.icon-zeile img {
+		width: 2em;
+	}
+	.icon-withtext {
+		font-size: 0.9em;
+	}
+}
+
+/* Anpassung der Spaltenhöhen des ersten Elementes auf Produktseiten (bei aktiviertem "Verwenden Sie Benutzerdefinierte Breite Rinne" auf der Zeile) */
+.et_pb_equal_columns >.et_pb_column {
+margin-top:auto;
+margin-bottom:auto;
+}
+
+/*Element mit geteiltem Hintergrund auf der Original-Neu-Seite: Beiden enthaltenen Divs wird eine Höhe von 50% zugeordnet, damit sie jeweils auf einem der beiden Hintergründe bleiben und nicht überlappen. Dem übergeordneten div wird eine Höhe von 85vh zugeordnet, an der sich die enthaltenen 50%-divs orientieren müssen. */
+.hoehe_100{
+	height:85vh !important;
+	/*Ich wollte hier eigentlich 100vh zuordnen, musste jedoch feststellen, dass Divi hier wieder irgendwelche Abstände reinhaut, daher nur 85vh, damit das Element nur so groß ist wie der Screen und nicht größer*/
+	overflow:hidden;
+	/* Wenn ein Element zu groß ist, wird es abgeschnitten, da es sonst zu Darstellungsfehlern kommt > Marketing muss hier bitte darauf achten, entsprechende Textlängen einzuhalten */
+}
+.hoehe_50{
+	height:50%;
+	margin:2em;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+
+/* START Minheight Stuff */
+/* Nebeneinanderstehende Texte mit unterschiedlichen Längen durch Min-Height glätten und einheitlich darstellen */
+/* .minheight {
+	min-height:50vh;
+} */
+/* Min-Height basierend auf Vertikaler Auflösung dynamisch anpassen */
+/* @media screen and (max-height:955px){
+	.minheight {
+		min-height: 45vh !important;
+	}
+}
+@media screen and (max-height:900px){
+	.minheight {
+		min-height: 40vh !important;
+	}
+}
+@media screen and (max-height:800px){
+	.minheight {
+		min-height: 35vh !important;
+	}
+}
+@media screen and (max-height:700px){
+	.minheight {
+		min-height: 30vh !important;
+	}
+}
+@media screen and (max-height:600px){
+	.minheight {
+		min-height: 25vh !important;
+	}
+}
+@media screen and (max-height:500px){
+	.minheight {
+		min-height: 20vh !important;
+	}
+} */
+/* ENDE Minheight Stuff */
+
+
+/* Block-Element mit Fester Breite z.B. für Text unter Bildern */
+/* Die .item Klasse ist Obsolet und soll nicht mehr benutzt werden */
+/* An deren Stelle tritt: icon-withtext */
+.item {
+  width: 200px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  margin: auto;
+  float: left;
+}
+/* Da gewünscht verkleinern wir unter bestimmten Auflösungen die Bilder */
+@media screen and (max-width:1555px) {
+	.item {
+		width: 190px;
+	}
+}
+@media screen and (max-width:1492px) {
+	.item {
+		width: 180px;
+	}
+}
+@media screen and (max-width:1367px) {
+	.item {
+		width: 170px;
+	}
+}
+@media screen and (max-width:1305px) {
+	.item {
+		width: 162px;
+	}
+}
+@media screen and (max-width:1255px) {
+.item {
+	width: 200px;
+	}
+}
+@media screen and (max-width:400px) {
+	.item img {
+		width: 100px;
+		height: 100px;
+		margin-right: 0px;
+		}
+	.item {
+		width: 100px;
+		}
+}
+
+/* Es existieren in jedem WP bereits:
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; } */
+
+/* ENDE DIVERSE MODIFIER */
+
+
+/* START BULLETS */
+.bullets {
+	list-style-type: none; 
+	counter-reset: li;
+}
+/* Workaround um Verschachtelte UL Normal darstellen zu können */
+.bullets_default {
+	list-style-type: circle !important;
+}
+.bullets_default li::before {
+	background-image: initial !important;
+	list-style-type: circle !important;
+	content: '\2022' !important;
+}
+
+.bullets li {
+	font-family: 'Source Sans Pro';
+	font-size: 15px;
+	font-weight: normal;
+	text-shadow: none !important;
+	list-style: none !important;
+	line-height: 1.7em;
+	margin: 1em;
+}
+.bullets li::before {
+/*	content: counter(li); */
+	content: '';
+	display: block; 
+	height:1.7em !important; 
+	width:1.7em !important; 
+	background-size: contain; 
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: -16px;
+	left: -0.8em;
+	top: 1.2em;
+}
+/* Bullet-Grafiken */
+.bullets_orig li::before {
+	background-image:url(/wp-content/uploads/bullet-original-anchovis-white-omega-tropfen.png);
+}
+.bullets_pearlz li::before {
+	background-image:url(/wp-content/uploads/bullet-pearlz-anchovis-white-omega-tropfen.png);
+}
+/* ENDE BULLETS */
+
+
+/* Kreis mit gepunkteten Linien */
+.kreis {
+	/* line-height:2em !important; */
+	/*	font-weight:bold; */
+	border-radius: 50%;
+	border: 2px dotted #3781C1 !important;
+	/* box-sizing:border-box; */
+	font-weight: bold !important;
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size: 14px !important;
+	letter-spacing: 3px;
+	/* width: 2em !important; */
+	/* height: 2em !important; */
+	color: white !important;
+	background-color: #3781C1 !important;
+	display: table !important;
+	text-align: center;
+}
+
+
+/* Größenmodifier für .kreis */
+.fuenfhundertpx {
+	height: 500px !important;
+	width: 500px !important;
+    /* padding: 100px 10px 100px 10px !important; */
+}
+.dreihundertpx {
+	height: 300px !important;
+	width: 300px !important;
+	/* padding: 5em 2em 0em 2em !important; */
+}
+ .kreis p {
+  display: table-cell !important;
+  vertical-align: middle !important;
+} 
+
+
+
+/* Start BLOCKQUOTES */
+.blockquote {
+	background: #F6F6F6;
+/*  margin: 1.5em 10px; */
+/*  padding: 0.5em 10px; */
+	quotes: "\201C""\201D""\2018""\2019";
+}
+.blockquote::before {
+  color: #3782C3;
+  content: open-quote;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  font-size: 5em;
+  float: left;
+/* Text nicht stauchen */
+  position: absolute;
+  left: -40px;
+}
+.blockquote::after {
+  color: #3782C3;
+  content: close-quote;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  font-size: 5em;
+  float: right;
+/* Text nicht stauchen, Positionsanpassung von schließender Quotation */
+  position: absolute;
+  right: -40px;
+  top: 800px;
+}
+/* ENDE BLOCKQUOTES */
+
+
+/* START CALL TO ACTION Buttons */
+.cta {
+	color: white;
+	text-transform:uppercase;
+	text-shadow:none;
+	font-weight:bold;
+	box-sizing:border-box;
+	margin: 5px 0px 5px 0px;
+	padding:12px;	
+	text-align:center;
+	cursor:pointer;
+	border-radius: 25px;
+	min-width: 12vw;
+	max-height: 100px;
+	/* display: inline-block; */
+	width: 100%;
+	/*Entfernt den Shadow bei den Buttons im Karussell:*/
+	border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	max-width: 33vw;
+    display: flex;
+}
+/* Buttons in Mobiler Ansicht groß werden lassen */
+@media screen and (max-width:400px){
+	.cta {
+	max-width: none;
+	}
+}
+/* Hover-Effekte für CTA-Buttons */
+div .omega_bg:hover {
+	background: #00699a !important;
+}
+div .pearlz_bg:hover {
+	background: #1E9DC7 !important;
+}
+div .neutral_bg:hover {
+	background: #F1F1EF !important;
+}
+
+/* Klassen half & quarter um Elemente in der Breite zu beschränken.
+Beschränkungen werden bei Horizontaler Auflösung unter 1032px durch mobile Anpassungen weiter unten aufgehoben */
+.half {
+	width: 49.5% !important;
+}
+.quarter {
+	width: 24.5% !important;
+}
+/* Die gleichen Klassen noch einmal ohne Responsiveness */
+.half_fixed {
+	width: 49.5% !important;
+	min-width: 14em;
+}
+.quarter_fixed {
+	width: 24.5% !important;
+	min-width: 14em;
+}
+
+.phyto_button {
+	padding: 20px;
+	border: none;
+	cursor:pointer;	
+}
+
+.nomaxwidth {
+	max-width: none !important;
+}
+
+/* ENDE CALL TO ACTION Buttons */
+
+
+/* Position-Swap für Slider */
+/* Slider Image on right, text on left */
+div#positionswap .et_pb_slide_description {
+float: left;
+}
+div#positionswap .et_pb_slide_image {
+right: 0;
+margin-right: 0;
+}
+
+
+/* Divi-Footer ausblenden */
+#footer-bottom {
+   display:none;
+}
+
+/* START Anprassungen für Slider-Elemente */
+/* Farbe der 'Slide-Dots' */
+.et_pb_bg_layout_light .et-pb-controllers .et-pb-active-control {
+    background-color: #0081B8;
+}
+/* Farbe und Form der Next/Previous Pfeile */
+.et-pb-arrow-prev:before, .et-pb-arrow-next:before {
+    background-color: #0081B8;
+    border-radius: 25px;
+	color: white;
+}
+/* ENDE Anprassungen für Slider-Elemente */
+
+
+/* Fullscreen-Stuff et_fullscreen_slider */
+/* https://www.elegantthemes.com/blog/divi-resources/how-to-create-a-full-screen-slider-with-divi */
+.et_vertical_nav #main-header #et-top-navigation{
+	text-align:center;
+}
+.et_vertical_nav #main-header #top-menu>li>a{
+	margin-bottom:20px;
+}
+.et_vertical_nav.et_vertical_fixed #page-container #main-header {
+	background: url("/wp-content/uploads/menue-footer-uebergeordnet.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.et_fullscreen_slider,.et_fullscreen_slider .et_pb_slides, .et_fullscreen_slider .et_pb_slide, .et_fullscreen_slider .et_pb_container {
+	min-height: 100vh !important;
+    height: auto !important;
+}
+
+/* START MOBILE ANPASSUNGEN  */
+
+/* Nachfolgendes Greift, wenn Breite unter 1280px (ehemals 1420) */
+@media screen and (max-width:1200px){
+	/* Die Breitenbeschränkungen durch die Klassen "half" und "quarter" aufheben */
+	.half, .quarter {
+		width: 100% !important;
+	}
+}
+
+/* Nachfolgendes Greift, wenn Breite unter 800px */
+@media screen and (max-width:799px){
+
+	/* Schließendes Blockquote: Höhenanpassung fällt weg */
+		.blockquote::after {
+		top: auto;
+	}
+
+	/* Minheight anpassen */
+	/* .minheight {
+		min-height: 20vh;
+	} */
+	
+	/* Anpassungen an Überschriften H1, H2 & H3 & Pseudo-H2 */
+	h1, .et_pb_slide_content h1 {
+		font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 36px !important;
+		text-shadow: none;
+		color: #333 !important;
+	}	
+	h2, .et_pb_slide_content h2,.et_pb_text_2 h2, .pseudo-h2 {
+		font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+		font-weight: 300;
+		font-size: 28px !important;
+		text-shadow: none;
+		color: #333 !important;
+	}
+	h3, .et_pb_slide_content h3 {
+		font-family: 'Montserrat Semibold', sans-serif;
+		font-size: 13px !important;
+		letter-spacing: 1px !important;
+		text-transform: uppercase;
+		text-shadow: none;
+	}
+	/* Anpassungen Darstellung von Preisen */
+	.pricetag {
+	font-size: 28px;
+	}
+
+
+	/* Logo Ausblenden */
+	.logo_container {
+		display: none;
+	}
+	.et_vertical_nav.et_vertical_fixed #page-container #main-header { 
+		background: none !important;
+		padding-top: 1em;
+	}
+	
+	.et_fullscreen_slider .et_pb_slides, .et_fullscreen_slider .et_pb_slide, .et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
+    height: auto !important;
+	}
+}
+
+/* Nachfolgendes greift, wenn Breite < 450 Pixel (Handy) */
+@media screen and (max-width: 450px){
+	.hoehe_100{
+		height:auto !important;
+		/* Das Element mit geteiltem Hintergrund soll auf kleinen Displays keine feste Höhe mehr haben, sondern sich der Höhe des Inhalts anpassen, da dieser sonst nicht komplett sichtbar ist. */
+	}
+	
+	/* Definiert, dass die Icons beim Qualitätsversprechen zentriert angezeigt werden sollen durch Entfernen der festen width und des floats */
+	.item{
+		width:auto;
+		float:none;
+		
+	}
+}
+/* ENDE MOBILE ANPASSUNGEN  */
+
+
+/* ==== START AENDERUNGEN VANESSA ==== */
+
+/* Manchmal klebt ein Button direkt unter einem Text. Hier wird ein kleiner Abstand zwischen Button und Text eingefügt, weil sich das vom Marketing-Team gewünscht wurde */
+.margin-bottom-button{
+	margin-bottom:30px;
+}
+
+/* START KARUSSELL */
+/* Die Elemente innerhalb des Sliders werden über die individuelle Slider-ID abgerufen und bearbeitet. In Diesem Fall lautet die ID 2913, daher muss vor jedem Element, das man bearbeiten möchte der Selektor #slider_2913 stehen */
+
+/* Die Bilder im Karussell sollen alle 300 Pixel hoch sein */
+#slider_2913 .slider-bild {
+	height: 300px;
+}
+/* Damit die Buttons alle einen gleichmäßigen Abstand zum Text haben, bekommen sie hier einen Margin zugewiesen */
+#slider_2913 .slider-margin {
+	margin-top: 15px;
+}
+/* Im Standard liegt die Navigation auf den Slider-Bildern. Hiermit wird sie unter die Slider-Elemente geschoben */
+#slider_2913 .owl-nav {
+	position: relative;
+	top: 75%;
+	margin-top: 2vh;
+}
+/* Da sich die Navigations-Buttons mit den Pfeilen im Standard überlappen, habe ich hier ihre Breite beschränkt, damit sie neben einander und nicht über einander liegen */
+#slider_2913 .owl-nav button {
+	min-width: 48% !important;
+}
+/* Im Standard sind die Karussell-Elemente leicht transparent */
+#slider_2913 .owl-item {
+	opacity: 0.5;
+}
+/* Beim Hovern werden sie voll deckend und sind nicht mehr transparent. Der Box-Shadow ist experimentell und noch nicht sicher, daher hier auskommentiert. Beim Hovern soll der Mauszeiger als Pointer angezeigt werden. */
+#slider_2913 .owl-item:hover {
+	opacity: 1;
+	/*-webkit-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
+	cursor: pointer;
+}
+/* ENDE KARUSSELL */
