@@ -119,6 +119,10 @@ body h2 {
 	font-size: 38px !important;
 	line-height: 42px;
 }
+/* Font-Size H3 */
+body h3 {
+	font-size: 14px !important;
+}
 /* Verhindern, dass bestimmte Absätze/p-Tags ein Margin von 1em haben. */
 .nomargin p {
 	margin: 0;
@@ -153,7 +157,6 @@ body h2 {
 	text-transform: uppercase;
     font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
     font-weight: 800!important;
-    font-size: 13px!important;
     letter-spacing: 0.1em;
 	/* LAUT STYLEGUIDE HABEN DIESE TEXTE ANDERE PARAMETER!
 	   DIESE FÜHREN ZU ERGEBNISSEN, DIE NICHT DEM LAYOUT ENTSPRECHEN! */
@@ -162,11 +165,6 @@ body h2 {
 	font-family: 'Montserrat Semibold', 'sans-serif';
 	font-size: 14px !important;
 	letter-spacing: 3px; */
-}
-
-/* Font-Size auf .CTA Buttons */
-.cta .tipps_h3, .cta .omega_h3, .cta .pearlz_h3, .cta .neutral_h3, .cta .altcta_h3, .cta .tipps_h3, .cta .vitc_h3, .cta .vitd3_h3, .cta .vitb_h3, .cta .calc_h3, .cta .jod_h3, .cta .mag_h3, .cta .zin_h3, .cta .sel_h3, .cta .fol_h3, .cta .gin_h3, .cta .acu_h3, .cta .eis_h3 {
-    font-size: 13px!important;
 }
 
 /* Alternative Klasse zum zentrieren von Objekten */
@@ -484,6 +482,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
     justify-content: center;
     align-items: center;
 	max-width: 33vw;
+    font-size: 13px!important;
 }
 /* Icons innerhalb von Buttons mit 25x25px anzeigen */
 .cta img {
