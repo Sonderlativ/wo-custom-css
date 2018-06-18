@@ -124,7 +124,7 @@ body h2 {
 .pricetag {
 	font-size: 38px;
 	line-height: 42px;
-	font-weight: bold !important;
+	/* font-weight: bold !important; */
 }
 
 /* Text wie H2 darstellen */
@@ -450,8 +450,8 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	text-shadow:none;
 	font-weight:bold;
 	box-sizing:border-box;
-	margin: 5px 0px 5px 0px;
-	padding:12px;	
+	margin: 10px auto 10px auto;
+	padding:13px;	
 	text-align:center;
 	cursor:pointer;
 	border-radius: 25px;
@@ -487,14 +487,14 @@ div .neutral_bg:hover {
 /* Klassen half & quarter um Elemente in der Breite zu beschränken.
 Beschränkungen werden bei Horizontaler Auflösung unter 1032px durch mobile Anpassungen weiter unten aufgehoben */
 .half {
-	width: 49.5% !important;
+	width: 49.0% !important;
 }
 .quarter {
 	width: 24.5% !important;
 }
 /* Die gleichen Klassen noch einmal ohne Responsiveness */
 .half_fixed {
-	width: 49.5% !important;
+	width: 49.0% !important;
 	min-width: 14em;
 }
 .quarter_fixed {
