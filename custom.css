@@ -119,12 +119,18 @@ body h2 {
 	font-size: 38px !important;
 	line-height: 42px;
 }
+/* Verhindern, dass bestimmte Absätze/p-Tags ein Margin von 1em haben. */
+.nomargin p {
+	margin: 0;
+}
 
 /* Klasse für die Darstellung von Preisen */
 .pricetag {
 	font-size: 38px;
 	line-height: 42px;
 	/* font-weight: bold !important; */
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-weight: 300;
 }
 
 /* Text wie H2 darstellen */
@@ -144,11 +150,18 @@ body h2 {
 
 /* Alle Custom-H3 in BOLD, UPPERCASE unsw. */
 .tipps_h3, .omega_h3, .pearlz_h3, .neutral_h3, .altcta_h3, .tipps_h3, .vitc_h3, .vitd3_h3, .vitb_h3, .calc_h3, .jod_h3, .mag_h3, .zin_h3, .sel_h3, .fol_h3, .gin_h3, .acu_h3, .eis_h3 {
-	font-weight: bold !important;
 	text-transform: uppercase;
-	font-family: 'Montserrat Semibold', sans-serif;
+    font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+    font-weight: 800!important;
+    font-size: 13px!important;
+    letter-spacing: 0.1em;
+	/* LAUT STYLEGUIDE HABEN DIESE TEXTE ANDERE PARAMETER!
+	   DIESE FÜHREN ZU ERGEBNISSEN, DIE NICHT DEM LAYOUT ENTSPRECHEN! */
+	/* font-weight: bold !important;
+	text-transform: uppercase;
+	font-family: 'Montserrat Semibold', 'sans-serif';
 	font-size: 14px !important;
-	letter-spacing: 3px;
+	letter-spacing: 3px; */
 }
 /* Alternative Klasse zum zentrieren von Objekten */
 .zentriert {
@@ -338,7 +351,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 }
 
 .bullets li {
-	font-family: 'Source Sans Pro';
+	font-family: 'Source Sans Pro', 'sans-serif';
 	font-size: 15px;
 	font-weight: normal;
 	text-shadow: none !important;
@@ -378,7 +391,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	border: 2px dotted #3781C1 !important;
 	/* box-sizing:border-box; */
 	font-weight: bold !important;
-	font-family: 'Montserrat Semibold', sans-serif;
+	font-family: 'Montserrat Semibold', 'sans-serif';
 	font-size: 14px !important;
 	letter-spacing: 3px;
 	/* width: 2em !important; */
@@ -418,7 +431,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .blockquote::before {
   color: #3782C3;
   content: open-quote;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', 'sans-serif';
   line-height: 0.1em;
   vertical-align: -0.4em;
   font-size: 5em;
@@ -430,7 +443,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .blockquote::after {
   color: #3782C3;
   content: close-quote;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', 'sans-serif';
   line-height: 0.1em;
   vertical-align: -0.4em;
   font-size: 5em;
@@ -461,12 +474,17 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	width: 100%;
 	/*Entfernt den Shadow bei den Buttons im Karussell:*/
 	border: none;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 	max-width: 33vw;
-    display: flex;
 }
+/* Icons innerhalb von Buttons mit 25x25px anzeigen */
+.cta img {
+	width: 25px !important;
+	height: 25px !important;
+}
+
 /* Buttons in Mobiler Ansicht groß werden lassen */
 @media screen and (max-width:400px){
 	.cta {
@@ -602,7 +620,7 @@ margin-right: 0;
 		color: #333 !important;
 	}
 	h3, .et_pb_slide_content h3 {
-		font-family: 'Montserrat Semibold', sans-serif;
+		font-family: 'Montserrat Semibold', 'sans-serif';
 		font-size: 13px !important;
 		letter-spacing: 1px !important;
 		text-transform: uppercase;
@@ -612,7 +630,6 @@ margin-right: 0;
 	.pricetag {
 	font-size: 28px;
 	}
-
 
 	/* Logo Ausblenden */
 	.logo_container {
