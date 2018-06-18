@@ -122,10 +122,13 @@ body h2 {
 /* Font-Size H3 */
 body h3 {
 	font-size: 14px !important;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.2em;
 }
-/* Verhindern, dass bestimmte Absätze/p-Tags ein Margin von 1em haben. */
-.nomargin p {
-	margin: 0;
+/* Verhindern, dass bestimmte Absätze/p-Tags ein Margin/Padding von 1em haben. */
+.nomargin {
+	margin: 0.1em !important;
+	padding-bottom: 0.1em !important;
 }
 
 /* Klasse für die Darstellung von Preisen */
@@ -157,7 +160,7 @@ body h3 {
 	text-transform: uppercase;
     font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
     font-weight: 800!important;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em !important;
 	/* LAUT STYLEGUIDE HABEN DIESE TEXTE ANDERE PARAMETER!
 	   DIESE FÜHREN ZU ERGEBNISSEN, DIE NICHT DEM LAYOUT ENTSPRECHEN! */
 	/* font-weight: bold !important;
@@ -190,11 +193,21 @@ body h3 {
     display: table !important;
 }
 .icon-zeile img {
-	max-width: 60px;
+	max-width: 85px;
+	max-height: 85px;
 	height: auto;
+	display: flex;
+}
+
+/* Einige Icons sind im Layout kleiner als andere */
+.icon-small img {
+	max-width: 66px;
+	max-width: 66px;
+}
+
+.icon-withtext img {
     margin-left: 1em;
     margin-right: 1em;
-	display: flex;
 }
 /* Wie .item, aber für Elemente in Icon-Zeile & ohne responsiveness */
 .icon-withtext {
@@ -367,8 +380,8 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 /*	content: counter(li); */
 	content: '';
 	display: block; 
-	height:1.7em !important; 
-	width:1.7em !important; 
+	height:1.2em !important; 
+	width:1.2em !important; 
 	background-size: contain; 
 	background-repeat: no-repeat;
 	position: relative;
