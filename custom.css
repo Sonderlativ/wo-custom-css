@@ -199,7 +199,7 @@ body h3 {
 	display: flex;
 }
 /* Icons unter dem 1. Packshot auf den Produktseiten Rechtsbündig machen */
-.icon-zeile #packshot-icons {
+#packshot-icons {
 	margin: unset !important;
 	float: right !important;
 }
@@ -242,6 +242,11 @@ body h3 {
 .smallheading {
 	font-size: 28px !important;
 	line-height: 26px !important;
+}
+
+/* Auf einigen Zeilen will ich keine Abstände haben. */
+.no-row-padding.et_pb_row {
+    padding: 0.5em !important;
 }
 
 /* Responsiveness für Mobile Ansicht, Icons & Text Schrumpfen */
