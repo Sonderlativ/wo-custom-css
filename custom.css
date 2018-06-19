@@ -499,7 +499,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	text-shadow:none;
 	font-weight:bold;
 	box-sizing:border-box;
-	margin: 10px auto 10px auto;
+	margin: 30px auto 10px auto;
 	padding:13px;	
 	text-align:center;
 	cursor:pointer;
@@ -711,11 +711,12 @@ margin-right: 0;
 
 /* ==== START AENDERUNGEN VANESSA ==== */
 
-/* Manchmal klebt ein Button direkt unter einem Text. Hier wird ein kleiner Abstand zwischen Button und Text eingefügt, weil sich das vom Marketing-Team gewünscht wurde */
-.margin-bottom-button{
+/* Manchmal klebt ein Button direkt unter einem Text. Hier wird ein kleiner Abstand zwischen Button und Text eingefügt, weil sich das vom Marketing-Team gewünscht wurde  /*
+/* .margin-bottom-button{
 	margin-bottom:30px;
-} /* Anmerkung Tim: OMG an wie vielen Stellen wird das benutzt?!?!?!
-	 Es wäre doch viel einheitlicher gewesen, ALLEN CTA-Buttons den Abstand gleichermaßen zu geben und evtl. eine Ausnahmeregel für die 1. Sektion der Produktseite zu bauen.... /*
+} /*
+/* Anmerkung Tim: OMG an wie vielen Stellen wird das benutzt?!?!?!
+	 Es wäre doch viel einheitlicher gewesen, ALLEN CTA-Buttons den Abstand gleichermaßen zu geben und evtl. eine Ausnahmeregel für die 1. Sektion der Produktseite zu bauen.... nie wieder sowas machen bitte, erst recht nicht ohne Rücksprache... /*
 
 /* START KARUSSELL */
 /* Die Elemente innerhalb des Sliders werden über die individuelle Slider-ID abgerufen und bearbeitet. In Diesem Fall lautet die ID 2913, daher muss vor jedem Element, das man bearbeiten möchte der Selektor #slider_2913 stehen */
