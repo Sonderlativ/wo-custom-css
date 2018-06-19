@@ -198,7 +198,11 @@ body h3 {
 	height: auto;
 	display: flex;
 }
-
+/* Icons unter dem 1. Packshot auf den Produktseiten Rechtsbündig machen */
+.icon-zeile #packshot-icons {
+	margin: unset !important;
+	float: right !important;
+}
 /* Einige Icons sind im Layout kleiner als andere */
 .icon-small img {
 	max-width: 66px;
