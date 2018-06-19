@@ -211,15 +211,19 @@ body h3 {
 }
 /* Wie .item, aber für Elemente in Icon-Zeile & ohne responsiveness */
 .icon-withtext {
-  text-align: center;
-  /* display: block; */
-  background-color: transparent;
-  border: 0.19em solid transparent;
-  float: left;
+	text-align: center;
+	/* display: block; */
+	background-color: transparent;
+	border: 0.19em solid transparent;
+	float: left;
 }
-/* Textbreite beschränken, um Textumbrüche wie in Layout-Entwurf zu erhalten */
+/* Textbreite beschränken um Textumbrüche wie in Layout-Entwurf zu erhalten
+	Zusätzlich Anpassung an Abständen und Schriftart */
 .icon-withtext p {
-  max-width: 7em;
+	max-width: 7em;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    line-height: 17px;
 }
 
 /* Anpassungen für Tropfen-Icon, das nicht Quadratisch ist. */
