@@ -221,6 +221,14 @@ body h3 {
   margin-bottom: 1px; */
   float: left;
 }
+
+/* Anpassungen für Tropfen-Icon, das nicht Quadratisch ist. */
+#tropfen {
+	max-height: 105px !important;
+	height: 105px !important;
+	margin-top: -20px !important;
+}
+
 /* Responsiveness für Mobile Ansicht, Icons & Text Schrumpfen */
 @media screen and (max-width:400px) {
 	.icon-zeile img {
