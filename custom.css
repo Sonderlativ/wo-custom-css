@@ -149,6 +149,13 @@ body h3 {
 	text-shadow: none;
 }
 
+/* Anpassungen für Fischölkapsel-Seite */
+.fischoel-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
 /* Min-Height für H2 Überschriften in bestimmten Containern um Gleichmäßigkeit herzustellen */
 /* .et_pb_text_inner h2, et_pb_text h2, .et_pb_column_1_3 h2, .et_pb_column_1_4 h2 {
 	min-height: 140px;
@@ -173,7 +180,7 @@ body h3 {
 /* Override für Text-Transform */
 .no-transform {
 	text-transform: unset !important;
-    font-weight: unset !important;
+    /* font-weight: unset !important; */
 }
 
 /* Alternative Klasse zum zentrieren von Objekten */
@@ -538,7 +545,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 }
 
 /* Kleineres Max-Width für Buttons bei Auflösungen über 800px */
-@media screen and (max-width: 1400px) and (min-width: 500px) {
+@media screen and (min-width: 980px) {
 	.cta {
 		max-width: 14vw !important;
 	}
