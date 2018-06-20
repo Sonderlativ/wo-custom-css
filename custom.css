@@ -170,6 +170,11 @@ body h3 {
 	letter-spacing: 3px; */
 }
 
+/* Override für Text-Transform */
+.no-transform {
+	text-transform: unset !important;
+}
+
 /* Alternative Klasse zum zentrieren von Objekten */
 .zentriert {
 	text-align: center !important;
