@@ -157,7 +157,7 @@ body h3 {
 }
 
 /* Stiling des TOC */
-.ez-toc-container {
+#ez-toc-container {
     border: solid 1px;
     padding: 10px 10px 10px 10px;
     border-color: #eeedeb;
