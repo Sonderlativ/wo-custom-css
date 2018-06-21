@@ -1,7 +1,7 @@
 Mängelliste Styleguide WO:
 
-- Styleguide erst erhalten, nachdem Layout-Entwürfe längst nachgebaut waren.
-- Inkonsistenz in der Seitenumsetzung
+- Styleguide erst erhalten, nachdem Layout-Entwürfe längst nachgebaut waren. Das führte zu einem ganzen Rattenschwanz an Problemen, die jetzt nur noch sehr Aufwändig zu beheben wären. So war z.B. nicht klar, dass es 3 Blautöne geben wird stat 2, da der Unterschied mit bloßem Auge anhand der Layout-Entwurfe kaum auzumachen war.
+- Inkonsistenz in der Seitenumsetzung: Die Gestaltungsweisen von Phytolistic sind anders als bei White-Omega. Die Farbige Schrift ist z.B. bei Phytho als H3 definiert, jedoch bei Omega als H4. Die Annahme, dass hier eine gewisse Kohärenz herschen würde, führte dazu dass jetzt alles was laut Styleguide (der viel zu spät kam) auf White-Omega eine H4 sein sollte in der Praxis eine H3 ist.
 - Keine einzige der im Styleguide abgebildeten Farben entspricht dem darunter stehenden Farbcode
 - Font der für H4 und Button-Text festgelegt wird, entspricht nicht der Abbildung und den Layout-Entwürfen
 - Abstände an vielen stellen uneinheitlich, Beispielsweise zwischen Pricetag und "Jetzt kaufen:" (unterschiedliche Abstände auf Produktseite Pearlz/Original). Ebenfalls zwischen H4 und Text.
