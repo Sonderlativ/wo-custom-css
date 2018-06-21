@@ -274,7 +274,7 @@ body h4 {
 
 /* Auf einigen Zeilen will ich keine Abstände haben. */
 .no-row-padding.et_pb_row {
-    padding: 0.5em !important;
+    padding: 0.1em !important;
 }
 
 /* Responsiveness für Mobile Ansicht, Icons & Text Schrumpfen */
