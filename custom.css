@@ -236,7 +236,6 @@ body h4 {
 	max-width: 66px;
 	max-width: 66px;
 }
-
 .icon-withtext img {
     margin-left: 1em;
     margin-right: 1em;
@@ -422,10 +421,8 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	list-style-type: circle !important;
 	content: '\2022' !important;
 }
-
 .bullets li {
 	font-family: 'Source Sans Pro', 'sans-serif';
-	font-size: 15px;
 	font-weight: normal;
 	text-shadow: none !important;
 	list-style: none !important;
@@ -453,28 +450,25 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .bullets_pearlz li::before {
 	background-image:url(/wp-content/uploads/bullet-pearlz-anchovis-white-omega-tropfen.png);
 }
+.bullets strong {
+	font-size: 21px !important;
+}
 /* ENDE BULLETS */
 
 
 /* Kreis mit gepunkteten Linien */
 .kreis {
-	/* line-height:2em !important; */
-	/*	font-weight:bold; */
 	border-radius: 50%;
 	border: 2px dotted #3781C1 !important;
-	/* box-sizing:border-box; */
-	font-weight: bold !important;
-	font-family: 'Montserrat Semibold', 'sans-serif';
+    font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
+    font-weight: 800 !important;
+    letter-spacing: 0.15em !important;
 	font-size: 14px !important;
-	letter-spacing: 3px;
-	/* width: 2em !important; */
-	/* height: 2em !important; */
 	color: white !important;
 	background-color: #3781C1 !important;
 	display: table !important;
 	text-align: center;
 }
-
 
 /* Größenmodifier für .kreis */
 .fuenfhundertpx {
@@ -485,7 +479,8 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .dreihundertpx {
 	height: 300px !important;
 	width: 300px !important;
-	/* padding: 5em 2em 0em 2em !important; */
+	padding: 6em 1em 0.1em 1em;
+    /* 90px 10px 0px 10px */
 }
  .kreis p {
   display: table-cell !important;
