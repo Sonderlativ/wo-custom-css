@@ -144,6 +144,7 @@ body h4 {
 	/* font-weight: bold !important; */
 	font-family: 'Source Sans Pro', 'sans-serif';
 	font-weight: 300;
+    padding-bottom: 0.5em;
 }
 
 /* Text wie H2 darstellen */
