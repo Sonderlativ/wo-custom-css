@@ -125,6 +125,12 @@ body h3 {
     margin-bottom: 0.6em;
     letter-spacing: 0.2em;
 }
+/* Font-Size H4 (zZt. nur auf Fischölkapsel-Seite) */
+body h4 {
+	font-size: 14px !important;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.2em;
+}
 /* Verhindern, dass bestimmte Absätze/p-Tags ein Margin/Padding von 1em haben. */
 .nomargin {
 	margin: 0.1em !important;
