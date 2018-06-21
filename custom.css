@@ -156,6 +156,14 @@ body h3 {
 	padding-bottom: 10px;
 }
 
+/* Stiling des TOC */
+.ez-toc-container {
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+    border-color: #eeedeb;
+    background-color: #f1f1ef;
+}
+
 /* Min-Height für H2 Überschriften in bestimmten Containern um Gleichmäßigkeit herzustellen */
 /* .et_pb_text_inner h2, et_pb_text h2, .et_pb_column_1_3 h2, .et_pb_column_1_4 h2 {
 	min-height: 140px;

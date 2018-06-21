@@ -1,6 +1,7 @@
 Mängelliste Styleguide WO:
 
 - Styleguide erst erhalten, nachdem Layout-Entwürfe längst nachgebaut waren.
+- Inkonsistenz in der Seitenumsetzung
 - Keine einzige der im Styleguide abgebildeten Farben entspricht dem darunter stehenden Farbcode
 - Font der für H4 und Button-Text festgelegt wird, entspricht nicht der Abbildung und den Layout-Entwürfen
 - Abstände an vielen stellen uneinheitlich, Beispielsweise zwischen Pricetag und "Jetzt kaufen:" (unterschiedliche Abstände auf Produktseite Pearlz/Original). Ebenfalls zwischen H4 und Text.
