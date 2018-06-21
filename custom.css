@@ -560,7 +560,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 }
 
 /* Kleineres Max-Width für Buttons bei Auflösungen über 800px */
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1199px) {
 	.cta {
 		max-width: 14vw !important;
 	}
