@@ -8,3 +8,12 @@ Mängelliste Styleguide WO:
 - Icons im Layout-Entwurf zur Produktseite Original sind unterschiedlich Groß. Ist das Absicht? ("Neue Standard für Reinheit und Qualität": 85x85px | "Unser Qualitätsversprechen": 66x66px)
 - Keine Größenangaben im Styleguide. Kein Maßstab für Bilder, Abstände, Buttons etc.
 
+
+Mängelliste Styleguide/Layout Phytolistic
+
+  - Im Styleguide definierte Größen für Überschriften, Zeilenabstände etc. sowie Farben für Tabellen wichen stark von der Darstellung im       Layout ab. Teilweise fehlen die korrekten Farbcodes komplett.
+  - Der überarbeitete Styleguide enthält Abweichungen bei den Farbcodes, die zuvor bereits definiert und eingebaut wurden, was leider zur     Folge hatte, dass an etlichen Stellen die Farben für beinahe jedes Produkt neu definiert werden mussten
+  - Farbwelten zur Folsäure fanden keine Erwähnung im neuen Styleguide, stattdessen gab es Selen gleich doppelt
+  - Mobile Layouts für komplexe Elemente wurden nicht mitgeliefert -> keine Ahnung, ob es an der mangelnden Kommunikation lag oder diese       Ansicht nie in Auftrag gegeben wurde, aber grundsätzlich ist es natürlich wünschenswert, einen Vorschlag für mobil schwer                 darzustellende Elemente mit der Desktopversion mitgeliefert zu bekommen
+  - Angedachte dynamische Elemente wie z.B. verschiedene Farben pro Produktwelt, verschiedene Logos in der Navigation pro Produkt waren       leider nicht klar ersichtlich und dementsprechend im Nachhinein aufwändiger einzupflegen
+  - Grundsätzlich gewinnt man beim Umsetzen der Vorgaben nicht das Gefühl, dass der Layouter mit einigen Eigenheiten des verwendeten           Themes vertraut ist. Beim nächsten Mal wäre eine engere Miteinbeziehung derjenigen, die intensiv mit Divi arbeiten in den                 Layoutprozess sicherlich sinnvoll, um Enttäuschungen und Frustrationen beim Marketing-Team und Divi-Team gleichermaßen zu vermeiden.
