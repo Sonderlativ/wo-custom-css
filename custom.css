@@ -178,7 +178,7 @@ body h4 {
 
 
 /* Alle Custom-H3 in BOLD, UPPERCASE unsw. */
-.tipps_h3, .omega_h3, .pearlz_h3, .neutral_h3, .altcta_h3, .tipps_h3, .vitc_h3, .vitd3_h3, .vitb_h3, .calc_h3, .jod_h3, .mag_h3, .zin_h3, .sel_h3, .fol_h3, .gin_h3, .acu_h3, .eis_h3 {
+.tipps_h3, .omega_h3, .pearlz_h3, .neutral_h3, .altcta_h3, .tipps_h3, .vitc_h3, .vitd3_h3, .vitb_h3, .calc_h3, .jod_h3, .mag_h3, .zin_h3, .sel_h3, .fol_h3, .gin_h3, .acu_h3, .eis_h3, .kreis {
 	text-transform: uppercase;
     font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
     font-weight: 800 !important;
@@ -306,44 +306,10 @@ margin-bottom:auto;
 	box-sizing:border-box;
 }
 
-/* START Minheight Stuff */
-/* Nebeneinanderstehende Texte mit unterschiedlichen Längen durch Min-Height glätten und einheitlich darstellen */
-/* .minheight {
+/* Nebeneinander stehende Texte mit unterschiedlichen Längen durch Min-Height glätten und einheitlich darstellen */
+.minheight.omega_h3 {
 	min-height:50vh;
-} */
-/* Min-Height basierend auf Vertikaler Auflösung dynamisch anpassen */
-/* @media screen and (max-height:955px){
-	.minheight {
-		min-height: 45vh !important;
-	}
 }
-@media screen and (max-height:900px){
-	.minheight {
-		min-height: 40vh !important;
-	}
-}
-@media screen and (max-height:800px){
-	.minheight {
-		min-height: 35vh !important;
-	}
-}
-@media screen and (max-height:700px){
-	.minheight {
-		min-height: 30vh !important;
-	}
-}
-@media screen and (max-height:600px){
-	.minheight {
-		min-height: 25vh !important;
-	}
-}
-@media screen and (max-height:500px){
-	.minheight {
-		min-height: 20vh !important;
-	}
-} */
-/* ENDE Minheight Stuff */
-
 
 /* Block-Element mit Fester Breite z.B. für Text unter Bildern */
 /* Die .item Klasse ist Obsolet und soll nicht mehr benutzt werden */
@@ -460,10 +426,6 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .kreis {
 	border-radius: 50%;
 	border: 2px dotted #3781C1 !important;
-    font-family: 'Raleway ExtraLight', 'Raleway', 'Source Sans Pro';
-    font-weight: 800 !important;
-    letter-spacing: 0.15em !important;
-	font-size: 14px !important;
 	color: white !important;
 	background-color: #3781C1 !important;
 	display: table !important;
@@ -474,14 +436,12 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .fuenfhundertpx {
 	height: 500px !important;
 	width: 500px !important;
-    padding: 12em 1em 0.1em 1em;
-	/* padding: 100px 10px 100px 10px !important; */
+    padding: 10em 1em 0.1em 1em;
 }
 .dreihundertpx {
 	height: 300px !important;
 	width: 300px !important;
 	padding: 6em 1em 0.1em 1em;
-    /* 90px 10px 0px 10px */
 }
  .kreis p {
   display: table-cell !important;
@@ -537,7 +497,7 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	text-align:center;
 	cursor:pointer;
 	border-radius: 25px;
-	min-width: 12vw;
+	/* min-width: 12vw; */
 	max-height: 100px;
 	/* display: inline-block; */
 	width: 100%;
@@ -678,11 +638,6 @@ margin-right: 0;
 		.blockquote::after {
 		top: auto;
 	}
-
-	/* Minheight anpassen */
-	/* .minheight {
-		min-height: 20vh;
-	} */
 	
 	/* Anpassungen an Überschriften H1, H2 & H3 & Pseudo-H2 */
 	h1, .et_pb_slide_content h1 {
